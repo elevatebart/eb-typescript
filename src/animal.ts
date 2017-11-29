@@ -42,6 +42,12 @@ export abstract class Animal {
 
     public async swallow(): Promise<IPoopable> {
         await wait(100);
+        setTimeout(() => {
+            console.log(`after a couple min : ${this.name}`); // here the value of 'this' is still an animal
+        }, 200);
+        setTimeout(function() {
+            console.log(`after a couple min : ${this.name}`); // here the value of 'this' is window
+        }, 200);
         return this.poopable;
     }
 }
