@@ -8,6 +8,14 @@ module.exports = function(config) {
       preprocessors: {
           "**/*.ts": ["karma-typescript"],
       },
+      karmaTypescriptConfig: {
+        compilerOptions: {
+          lib: [
+            "es2015",
+            "dom"
+          ]
+        }
+      },
       reporters: ["progress", "karma-typescript"],
       browsers: ["ChromeHeadless"]
   });

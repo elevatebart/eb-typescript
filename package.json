@@ -10,7 +10,7 @@
     "lint": "tslint -p .",
     "test": "karma start --single-run"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^2.5.53",
     "jasmine": "^2.6.0",

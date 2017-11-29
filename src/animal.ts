@@ -18,9 +18,10 @@ export interface IPoopable {
 }
 
 function wait(time: number): Promise<void> {
-    return new Promise((resolve: () => void) => {
+    const ret = new Promise<void>((resolve: () => void) => {
         setTimeout(resolve, time);
     });
+    return ret;
 }
 
 export abstract class Animal {
