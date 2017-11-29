@@ -8,7 +8,6 @@ export class Puma extends Animal {
     }
     public shout(): void {
         this.head.open();
-        // tslint:disable-next-line:no-console
         console.log("grouaaaaaaa !!!");
     }
 }
