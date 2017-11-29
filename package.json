@@ -1,0 +1,22 @@
+{
+  "name": "eb-typescript",
+  "version": "1.0.0",
+  "description": "Ressource for nov 30th training",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elevatebart/eb-typescript.git"
+  },
+  "author": "bart ledoux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elevatebart/eb-typescript/issues"
+  },
+  "homepage": "https://github.com/elevatebart/eb-typescript#readme",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
