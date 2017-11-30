@@ -13,7 +13,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^2.5.53",
-    "awesome-typescript-loader": "^3.4.0",
     "jasmine": "^2.6.0",
     "jasmine-core": "^2.6.4",
     "karma": "^1.7.0",
@@ -22,7 +21,6 @@
     "karma-jasmine": "^1.1.0",
     "karma-typescript": "^3.0.8",
     "rimraf": "^2.6.1",
-    "source-map-loader": "^0.2.3",
     "tslint": "^5.5.0",
     "tslint-loader": "^3.5.3",
     "typescript": "^2.4.1",

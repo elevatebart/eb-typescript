@@ -8,5 +8,6 @@ describe("Puma", () => {
 
     it("puma should be a big cat", () => {
         expect(sut.name).toBe("Big Cat");
+        sut.shout();
     });
 });

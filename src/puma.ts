@@ -5,6 +5,7 @@ export class Puma extends Animal {
         super({
             name: "Big Cat",
         });
+        console.log(`puma created ${this.name}`); // if you move this before super() compiler will cry
     }
     public shout(): void {
         this.head.open();

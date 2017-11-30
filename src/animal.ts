@@ -31,6 +31,12 @@ export abstract class Animal {
 
     constructor(opts: IAnimalOption) {
         this.name = opts.name;
+        this.head = {
+            size: MouthSize.big,
+            open() {
+                console.log("open");
+            },
+        };
         this.poopable = {
             poop() {
                 console.log("poop");
